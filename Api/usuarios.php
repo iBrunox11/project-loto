@@ -14,7 +14,8 @@ function getPagina(){
 		$data = $_POST['nascimento'];
 
 		$pessoa_cadastro = ([$nome,$email,$senha1,$senha2,$data]);
-		var_dump($pessoa_cadastro);
+		
+		var_dump(json_encode($pessoa_cadastro));
 		//var_dump($nome." ".$nascimento." ".$email." ".$senha1." ".$senha2." - ".$data);
 	}
 }
