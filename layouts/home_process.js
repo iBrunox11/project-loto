@@ -26,14 +26,14 @@ function calculoSena(qtd){
             if(!(contador < 6)){
                 contador = 0;
                 contador++;
-                valores += [" "+"<p class='quebra1'>/</p>"+" "+Math.floor(Math.random()*60+1)];
+                valores += [" "+"<p class='quebra1'>/</p>"+" "+"<p class='bolinha1'>"+Math.floor(Math.random()*60+1)+"</p>"];
             }else{
             contador++;
-            valores += [" "+Math.floor(Math.random()*60+1)];
+            valores += [" "+"<p class='bolinha1'>"+Math.floor(Math.random()*60+1)+"</p>"];
             } 
         }
         }
-        document.getElementById("resultado").innerHTML = "Sequência:<br> "+valores;
+        document.getElementById("resultado").innerHTML = "Sequência:<br><br>"+valores;
         document.getElementById("preco").innerHTML = "Preço:<br>"+"R$: "+(qtd*3.50);
     }
 }
@@ -61,14 +61,14 @@ function calculoQuadra(qtd){
             if(!(contador < 4)){
                 contador = 0;
                 contador++;
-                valores += [" "+"<p class='quebra2'>/</p>"+" "+Math.floor(Math.random()*60+1)];
+                valores += [" "+"<p class='quebra2'>/</p>"+" "+"<p class='bolinha2'>"+Math.floor(Math.random()*60+1)+"</p>"];
             }else{
             contador++;
-            valores += [" "+Math.floor(Math.random()*60+1)];
+            valores += [" "+"<p class='bolinha2'>"+Math.floor(Math.random()*60+1)+"</p>"];
             } 
         }
         }
-        document.getElementById("resultado").innerHTML = "Jogos:<br> "+valores;
+        document.getElementById("resultado").innerHTML = "Sequência:<br><br> "+valores;
         document.getElementById("preco").innerHTML = "Preço:<br>"+"R$: "+(qtd*3.50);
     }
 }
@@ -95,14 +95,14 @@ function calculoQuina(qtd){
             if(!(contador < 5)){
                 contador = 0;
                 contador++;
-                valores += [" "+"<p class='quebra3'>/</p>"+" "+Math.floor(Math.random()*60+1)];
+                valores += [" "+"<p class='quebra3'>/</p>"+" "+"<p class='bolinha3'>"+Math.floor(Math.random()*60+1)+"</p>"];
             }else{
             contador++;
-            valores += [" "+Math.floor(Math.random()*60+1)];
-            } 
+            valores += [" "+"<p class='bolinha3'>"+Math.floor(Math.random()*60+1)+"</p>"];
+            }  
         }
         }
-        document.getElementById("resultado").innerHTML = "Jogos:<br> "+valores;
+        document.getElementById("resultado").innerHTML = "Sequência:<br><br> "+valores;
         document.getElementById("preco").innerHTML = "Preço:<br>"+"R$: "+(qtd*3.50);
     }
 }

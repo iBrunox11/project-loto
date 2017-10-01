@@ -38,6 +38,33 @@
             color: #a5a5a5;
             text-decoration-style: none;
         }
+        .bolinha1{
+            display: inline;
+            border-radius: 10px;
+            padding: 0.5%;
+            padding-left: 0.5%;
+            padding-right: 0.5%;
+            color: white;
+            background-color: #007bff;
+        }
+        .bolinha2{
+            display: inline;
+            border-radius: 10px;
+            padding: 0.5%;
+            padding-left: 0.5%;
+            padding-right: 0.5%;
+            color: white;
+            background-color: #ffc107;
+        }
+        .bolinha3{
+            display: inline;
+            border-radius: 10px;
+            padding: 0.5%;
+            padding-left: 0.5%;
+            padding-right: 0.5%;
+            color: white;
+            background-color: #dc3545;
+        }
     </style>
 </head>
    <!---content-->
